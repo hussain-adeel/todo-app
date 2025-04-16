@@ -1,12 +1,7 @@
-import './App.css';
-
-const App = () => {
+export default function App() {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+    <div className="p-8">
+      <h1 className="text-4xl font-bold text-blue-600">App</h1>
     </div>
   );
-};
-
-export default App;
+}
